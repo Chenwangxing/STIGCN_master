@@ -11,3 +11,6 @@ The spatial-temporal interaction-aware learning framework. First, embedding func
 
 ![image](https://github.com/Chenwangxing/STIGCN_master/assets/72364851/a81c7faf-0340-4f26-adbd-be9fde75c172)
 
+
+
+Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
