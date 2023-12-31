@@ -1,5 +1,6 @@
 # STIGCN_master
-STIGCN: Spatial-Temporal Interaction-aware Graph Convolution Network for Pedestrian Trajectory Prediction
+STIGCN: Spatial-Temporal Interaction-aware Graph Convolution Network for Pedestrian Trajectory Prediction!
+The Paper: https://link.springer.com/article/10.1007/s11227-023-05850-8
 
 Code will be released soon!
 
@@ -14,3 +15,8 @@ The spatial-temporal interaction-aware learning framework. First, embedding func
 
 
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
+
+
+## Cite this article:
+
+Chen, W., Sang, H., Wang, J. et al. STIGCN: spatial–temporal interaction-aware graph convolution network for pedestrian trajectory prediction. J Supercomput (2023). https://doi.org/10.1007/s11227-023-05850-8
