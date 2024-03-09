@@ -15,10 +15,15 @@ The spatial-temporal interaction-aware learning framework. First, embedding func
 
 ## Code Structure
 checkpoint folder: contains the trained models
+
 dataset folder: contains ETH and UCY datasets
+
 model.py: the code of STIGCN
+
 test.py: for testing the code
+
 utils.py: general utils used by the code
+
 metrics.py: Measuring tools used by the code
 
 ## Model Evaluation
