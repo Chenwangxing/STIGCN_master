@@ -27,7 +27,7 @@ utils.py: general utils used by the code
 metrics.py: Measuring tools used by the code
 
 ## Model Evaluation
-You can easily run the model using test.py.
+You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test.py
 
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
