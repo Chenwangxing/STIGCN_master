@@ -2,7 +2,7 @@
 STIGCN: Spatial-Temporal Interaction-aware Graph Convolution Network for Pedestrian Trajectory Prediction!
 The Paper: https://link.springer.com/article/10.1007/s11227-023-05850-8
 
-Code will be released soon!
+The code and weights have been released, enjoy it！
 
 The general framework of the proposed method. First, historical trajectories were transformed into spatial and temporal graph inputs. Then, spatial-temporal interaction-aware learning obtained the spatial-temporal fusion adjacency matrix from the graph inputs. Afterward, the subsequent graph convolution network learned the trajectory representation features. Finally, the Time-Extrapolator Pyramid Convolution Neural Network (TEP-CNN) estimated the bi-variate Gaussian distribution parameters of future trajectory points for predicting future pedestrian trajectories.
 
@@ -13,7 +13,18 @@ The spatial-temporal interaction-aware learning framework. First, embedding func
 ![image](https://github.com/Chenwangxing/STIGCN_master/assets/72364851/a81c7faf-0340-4f26-adbd-be9fde75c172)
 
 
+## Code Structure
+checkpoint folder: contains the trained models
+dataset folder: contains ETH and UCY datasets
+model.py: the code of STIGCN
+test.py: for testing the code
+utils.py: general utils used by the code
+metrics.py: Measuring tools used by the code
 
+## Model Evaluation
+You can easily run the model using test.py.
+
+## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
 
 
