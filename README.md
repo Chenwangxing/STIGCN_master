@@ -44,6 +44,7 @@ You can easily run the model! To use QMC sampling please run:  test-Qmc.py
 
 You can easily run the model! To use LHS sampling please run:  test-Lhs.py
 
+The prediction errors of different sampling methods are shown in the following table：
 | STIGCN  | ETH | HOTEL| UNIV| ZARA1 | ZARA2 | AVG |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | MC  | 0.58/0.96 | 0.30/0.44| 0.38/0.67| 0.28/0.47 | 0.23/0.42 | 0.35/0.59 |
