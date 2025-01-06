@@ -41,7 +41,8 @@ space; the bottom is 20 random trajectories predicted by each method.
 <img width="955" alt="不同采样方法的示意图 - 修改1" src="https://github.com/user-attachments/assets/cb0bd0ef-e9b2-4646-9d05-4417ca399b01" />
 
 You can easily run the model! To use QMC sampling please run:  test-Qmc.py
-You can easily run the model! To use LHS sampling please run:  test-Qmc.py
+
+You can easily run the model! To use LHS sampling please run:  test-Lhs.py
 
 
 ## Acknowledgement
