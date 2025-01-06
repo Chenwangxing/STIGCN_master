@@ -33,7 +33,7 @@ You can easily run the model！ To use the pretrained models at checkpoint/ and 
 
 
 ## Trajectory prediction update
-Different from previous random sampling, we introduce Latin hypercube sampling (LHS) in pedestrian trajectory prediction to mitigate the long-tail effect. Compared with quasi-Monte Carlo sampling (QMC), Latin hypercube sampling is more suitable for trajectory prediction and can more accurately describe the diversity of pedestrian motion. It is worth noting that random sampling, quasi-Monte Carlo sampling, and Latin hypercube sampling are plug-and-play and do not require training. （For details, please refer to the paper: DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for Pedestrian Trajectory Prediction）
+Different from previous random sampling (MC), we introduce Latin hypercube sampling (LHS) in pedestrian trajectory prediction to mitigate the long-tail effect. Compared with quasi-Monte Carlo sampling (QMC), Latin hypercube sampling is more suitable for trajectory prediction and can more accurately describe the diversity of pedestrian motion. It is worth noting that random sampling, quasi-Monte Carlo sampling, and Latin hypercube sampling are plug-and-play and do not require training. （For details, please refer to the paper: DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for Pedestrian Trajectory Prediction）
 
 Prediction diagram of each sampling method. The top is a twodimensional scatter plot of 20 points using MC, QMC and LHS, respectively.
 The asterisks represent the coordinates of the true destination in the sampling
@@ -44,6 +44,11 @@ You can easily run the model! To use QMC sampling please run:  test-Qmc.py
 
 You can easily run the model! To use LHS sampling please run:  test-Lhs.py
 
+| STIGCN  | ETH | HOTEL| UNIV| ZARA1 | ZARA2 | AVG |
+| ------------- | ------------- |
+| MC  | 0.58/0.96 | 0.30/0.44| 0.38/0.67| 0.28/0.47 | 0.23/0.42 | 0.35/0.59 |
+| QMC  | 0.52/0.96 | 0.22/0.33| 0.31/0.56| 0.25/0.45 | 0.21/0.39 | 0.30/0.54 |
+| LHS  | 0.43/0.68 | 0.24/0.48| 0.26/0.48| 0.22/0.41 | 0.17/0.32 | 0.26/0.47 |
 
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
