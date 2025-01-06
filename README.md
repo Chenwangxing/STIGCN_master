@@ -31,13 +31,14 @@ metrics.py: Measuring tools used by the code
 ## Model Evaluation
 You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test.py
 
-Different from previous random sampling, we introduce Latin hypercube sampling (LHS) in pedestrian trajectory prediction to mitigate the long-tail effect. Compared with quasi-Monte Carlo sampling (QMC), Latin hypercube sampling is more suitable for trajectory prediction and can more accurately describe the diversity of pedestrian motion. It is worth noting that random sampling, quasi-Monte Carlo sampling, and Latin hypercube sampling are plug-and-play and do not require training.
+
+## Trajectory prediction update
+Different from previous random sampling, we introduce Latin hypercube sampling (LHS) in pedestrian trajectory prediction to mitigate the long-tail effect. Compared with quasi-Monte Carlo sampling (QMC), Latin hypercube sampling is more suitable for trajectory prediction and can more accurately describe the diversity of pedestrian motion. It is worth noting that random sampling, quasi-Monte Carlo sampling, and Latin hypercube sampling are plug-and-play and do not require training. （For details, please refer to the paper: DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for Pedestrian Trajectory Prediction）
 
 Prediction diagram of each sampling method. The top is a twodimensional scatter plot of 20 points using MC, QMC and LHS, respectively.
 The asterisks represent the coordinates of the true destination in the sampling
 space; the bottom is 20 random trajectories predicted by each method.
 <img width="955" alt="不同采样方法的示意图 - 修改1" src="https://github.com/user-attachments/assets/cb0bd0ef-e9b2-4646-9d05-4417ca399b01" />
-
 
 You can easily run the model! To use QMC sampling please run:  test-Qmc.py
 You can easily run the model! To use LHS sampling please run:  test-Qmc.py
