@@ -58,14 +58,3 @@ Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge t
 ## Cite this article:
 
 Chen, W., Sang, H., Wang, J. et al. STIGCN: spatial–temporal interaction-aware graph convolution network for pedestrian trajectory prediction. J Supercomput (2023). https://doi.org/10.1007/s11227-023-05850-8
-
-@article{chen2024stigcn,
-  title={STIGCN: spatial--temporal interaction-aware graph convolution network for pedestrian trajectory prediction},
-  author={Chen, Wangxing and Sang, Haifeng and Wang, Jinyu and Zhao, Zishan},
-  journal={The Journal of Supercomputing},
-  volume={80},
-  number={8},
-  pages={10695--10719},
-  year={2024},
-  publisher={Springer}
-}
